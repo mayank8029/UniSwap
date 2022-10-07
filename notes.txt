@@ -1,0 +1,40 @@
+1) VITE : In this we will going to use vite insted of npx create-react-app 
+-> it is faster and more easier to use 
+
+just go to the documentation and type the given command in the terminal 
+
+run-> npm install
+
+npm run dev 
+
+
+2) using tailwind css 
+
+go to the following website and do whatever written 
+https://tailwindcss.com/docs/guides/create-react-app
+
+
+3) Now go to the smart_contract and write the following code
+
+npm init -y
+
+4)  npm install react-icons ethers
+
+
+5) Now in smart_contract we will going to install 
+npm install --save-dev hardhat @nomiclabs/hardhat-ethers ethers
+
+6)alchemy will help you in deploying the smart contract 
+
+
+7) code for deplolying smart contracts are 
+ npx hardhat run scripts/deploy.js --network goerli
+ 
+
+ NOw you will find the address of the contract go and save it in the client side in the utils folder 
+
+ 8) Now there is artifacts folder / contracts/transaction.sol/transaction.json file just copy paste it in the utils by creating new file called transaction.json 
+ 
+ this file contains all the specific info about our smart contract 
+
+
