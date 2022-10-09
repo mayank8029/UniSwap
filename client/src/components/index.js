@@ -5,6 +5,6 @@ export {default as Footer} from './Footer' ;
 
 export {default as Welcome} from './Welcome' ;
 
-export {default as Transaction} from './Transaction' ;
+export {default as Transaction} from './Transactions' ;
 
 export {default as Services } from './Services' ;

@@ -27,6 +27,9 @@ npm install --save-dev hardhat @nomiclabs/hardhat-ethers ethers
 6)alchemy will help you in deploying the smart contract 
 
 
+
+
+
 7) code for deplolying smart contracts are 
  npx hardhat run scripts/deploy.js --network goerli
  
@@ -34,7 +37,18 @@ npm install --save-dev hardhat @nomiclabs/hardhat-ethers ethers
  NOw you will find the address of the contract go and save it in the client side in the utils folder 
 
  8) Now there is artifacts folder / contracts/transaction.sol/transaction.json file just copy paste it in the utils by creating new file called transaction.json 
- 
+
  this file contains all the specific info about our smart contract 
 
 
+9)we will goingo to use react context api with a purpose to connect our smartcontract with the frontend 
+
+
+so here we start creating a folder called context 
+
+-> Here we use const {ethereum} = window because it help us to get the object as we already install metamask .... it help sin accecing the blockchain 
+
+10) go to devleopers.giphy.com and create the account .... this hleps you to get the correct giph for the following transactions 
+
+
+ 
